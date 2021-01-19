@@ -110,4 +110,8 @@ Delete Any File After Changes/Modification:			$ git rm <deleted_file_name> -f //
 23. Remote Changes Drop To Local Repository Than Working Dir:	$ git fetch --> Then <-- git merge
 24. Live Remote Changes Drop To Working Directory:		$ git pull
 
+25. Local Repository To Push Remote A Repository (Example):	$ git remote add origin https://github.com/SamiurRahmanMukul/fadelicious-psd-to-html-template-by-mukul.git
+								$ git branch -M main
+								$ git push -u origin main
+
 		[//] =====> Git & Github --> Collection-2 || End <===== [//]
