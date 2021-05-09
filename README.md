@@ -1,14 +1,12 @@
 # LearnWithMukul-Computer-Programming
 
-### 🔰 Follow Me On Social Media:
+## 🔰 Follow Me On Social Media
 
 - @Facebook - [Click To Go][facebook]
 - @Instagram - [Click To Go][instagram]
 - @Twitter - [Click To Go][twitter]
 - @linkedIn - [Click To Go][linkedin]
 - @Github - [Click To Go][github]
-
-<br />
 
             </> HAPPY PROGRAMMING & DEVELOPING 🤣 </>
 

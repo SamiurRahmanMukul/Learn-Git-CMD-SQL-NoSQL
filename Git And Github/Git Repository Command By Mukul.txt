@@ -1,82 +1,83 @@
-		    [<>] GIT RESPIRATORY COMMAND LINE [<>]
-		           With: Samiur Rahman Mukul
-	 		Email: sr.mukul9090@gmail.com
-------------------------------------------------------------------------------------------------------------------------
+				[<>] GIT RESPIRATORY COMMAND LINE [<>]
+					   With: Samiur Rahman Mukul
+					 Email: sr.mukul9090@gmail.com
+-----------------------------------------------------------------------------------------------------
 
 		[//] =====> Git & Github --> Collection-1 || Start <===== [//]
 
-1. Check Git Version: 						$ git --version
+1. Check Git Version: 							$ git --version
 2. Create a New Git Repository: 			  	$ git init
-3. Global Git User Name Set:				  	$ git config --global user.name "MUKUL"
-4. Global Git User Email Set: 				  	$ git config --global user.email "sr.mukul9090@gmail.com"
-5. Pacific Git User Name Set: 				  	$ git config user.name "MUKUL"
-6. Pacific Git user Email Set:				 	$ git config user.email "sr.mukul9090@gmail.com"
-7. Check Git-Bash Command Using Sser Details: 			$ git config --list
+3. Global Git User Name Set:				  	$ git config --global user.name "Mukul"
+4. Global Git User Email Set: 				  	$ git config --global user.email "example@gmail.com"
+5. Pacific Git User Name Set: 				  	$ git config user.name "Mukul"
+6. Pacific Git user Email Set:				 	$ git config user.email "example@gmail.com"
+7. Check Git-Bash Command Using Details: 		$ git config --list
 8. Clear Git-Bash Command Screen: 			  	$ clear / cls
-9. Check Git Untracked File: 				  	$ git status
+9. Check Git Untraced File: 				  	$ git status
 10. Tracking / Stage a File: 				  	$ git add <file_name>
-11. Tracking / All Changes & New File: 	  			$ git add --all
-12. Tracking / All Changes & New File: 	  			$ git add .
-13. Commit Tracking File: 					$ git commit -m "<commit_message_name>"
+11. Tracking / All Changes & New File: 	  		$ git add --all
+12. Tracking / All Changes & New File: 	  		$ git add .
+13. Commit Tracking File: 						$ git commit -m "<commit_message_name>"
 14. All Commit Status Check:				  	$ git log
-15. All Commit Status Check Minimal Version:  			$ git log --oneline
-16. Back Previous Git Commit Changes File: 	  		$ git checkout <previous_commit_number>
+15. All Commit Status Check Minimal Version:  	$ git log --oneline
+16. Back Previous Git Commit Changes File: 	  	$ git checkout <previous_commit_number>
 17. Go Git Working Master Branch: 			  	$ git checkout master
-18. Git File Latest Chages View:			  	$ git diff
-19. Git Commit Chages View: 					$ git show <commit_number>
-20. Git Commit Compare Anather Commit: 				$ git diff <commit_number_one> <commit_number_anather>
-21. Git File Latest Chages View Staging Area:			$ git diff --staged
-22. Delete A File In Git:					$ git rm <file_name>
+18. Git File Latest Changes View:			  	$ git diff
+19. Git Commit Changes View: 					$ git show <commit_number>
+20. Git Commit Compare Another Commit: 			$ git diff <commit_number_one> <commit_number_another>
+21. Git File Latest Changes View Staging Area:	$ git diff --staged
+22. Delete A File In Git:						$ git rm <file_name>
 23. Delete A File Staging Area: 				$ git reset HEAD <file_name>
 24. After Deleting A File Commit: 				$ git commit -m "<commit_message_name>"
-25. Untrack Tracking File In Git: 				$ git reset
+25. Untraced Tracking File In Git: 				$ git reset
 
 26. Push A Local Repository To Remote/Github (HTTPS) Using:
 	> firstly create a Github repository
-	> copy repository (HTTPS) url --> 	       Example: $ git remote add origin https://github.com/SamiurRahmanMukul/LearnWithMukul.git
-	> thren push using this command --> 			$ git push -u origin main
+	> copy repository (HTTPS) url, Example -->  $ git remote add origin https://github.com/SamiurRahmanMukul/LearnWithMukul.git
+	> then push using this command --> 			$ git push -u origin main
 
 27. SSH Key Generate & Push A Repository In Github (SSH) Using:
 	> firstly create a Github repository
 	> create a Working Directory and commit it
 
-	====> utfs bios <=====
+	====> UTFS BIOS <=====
 	> then command line firstly run this command --> Example: $ ssh-keygen -t rsa -b 4096 -C "sr.mukul9090@gmail.com"
 		>>> asking command line a key_name and password then enter this --> key_name and password
-	====> legacy bios <=====
+
+	====> LEGACY BIOS <=====
 	> then command line firstly run this command --> Example: $ ssh-keygen -t rsa -b 4096 -C "sr.mukul9090@gmail.com"
 		>>> asking command line a key_name and password then enter this --> key_name and password
-	> secondly run this command --> 			  $ eval $(ssh-agent -s)
-	> thirdly run this command --> 				  $ ssh-add ~/.ssh/id_rsa
-	> then finally enter again pevious generate password
-	> now copy generate ssh key using this command --> 	  $ clip < ~/.ssh/id_rsa.pub
+	> secondly run this command --> 			 			  $ eval $(ssh-agent -s)
+	> thirdly run this command --> 				 			  $ ssh-add ~/.ssh/id_rsa
+	> then finally enter again previous generate password
+	> now copy generate ssh key using this command --> 	  	  $ clip < ~/.ssh/id_rsa.pub
 	> go github.com and login then go setting and generate a new (SSH) key ... Finally.OK
 
 28. Push A Local Repository To Remote/Github (SSH) Using:
 	> firstly create a Github repository
 	> create a Working Directory and commit it
-	> copy repository (SSH) url --> Example: 		  $ git remote add origin git@github.com:SamiurRahmanMukul/LearnWithMukul-Computer-Programming.git
-	> thren push using this command --> 			  $ git push -u origin main
+	> copy repository (SSH) url --> Example: 		  	  	  $ git remote add origin git@github.com:SamiurRahmanMukul/LearnWithMukul-Computer-Programming.git
+	> then push using this command --> 			      	  	  $ git push -u origin main
 
-29. Copy A Repository In GitHub:				  $ git clone
-30. View Changes Local To Remote Repository:			  $ git fetch
-31. Remote All Charges Drop Into Working Directory:		  $ git pull
-32. Check Total Brach In Repository:				  $ git branch
-33. Create A New Branch In Working Directory:			  $ git branch <branch_name> // Example: git branch dev-branch
-34. Switch Another Branch In Repository:			  $ git checkout <branch_name> // Example: git branch dev-branch
-35. Create New Branch & Switch It's:				  $ git checkout <branch_name> // Example: git checkout -b home-branch
-36. Git Merge Master Chages Add To Another Branch:		  $ git merge master -m "<commit_message>" // Example: git merge master -m "master branch merge with development branch"
-37. Delete A Branch In Repository:				  $ git branch -D <branch_name> // Example: git branch -D dev-branch
+29. Copy A Repository In GitHub:				  		  	  $ git clone
+30. View Changes Local To Remote Repository:			  	  $ git fetch
+31. Remote All Charges Drop Into Working Directory:		  	  $ git pull
+32. Check Total Brach In Repository:				 	   	  $ git branch
+33. Create A New Branch In Working Directory:			  	  $ git branch <branch_name> // Example: git branch dev-branch
+34. Switch Another Branch In Repository:			  	  	  $ git checkout <branch_name> // Example: git branch dev-branch
+35. Create New Branch & Switch It's:				  	  	  $ git checkout <branch_name> // Example: git checkout -b home-branch
+36. Git Merge Master Changes Add To Another Branch:		  	  $ git merge master -m "<commit_message>" // Example: git merge master -m "master branch merge with development branch"
+37. Delete A Branch In Repository:				  		  	  $ git branch -D <branch_name> // Example: git branch -D dev-branch
 
-38. Git Stash/Temporary Folder Create Command:			  $ git stash
-39. Git Stash/Temporary Folder View Command:			  $ git stash pop
-40. Git Stash/Temporary Folder View Another Command:		  $ git stash apply
-41. Git Stash/Temporary Total Folder View Command:		  $ git stash list
-42. Go Different Git Stash/Temporary Folder Command:		  $ git stash pop <stash_number> // Example: git stash pop stash@{1}
+38. Git Stash/Temporary Folder Create Command:			  	  $ git stash
+39. Git Stash/Temporary Folder View Command:			  	  $ git stash pop
+40. Git Stash/Temporary Folder View Another Command:	  	  $ git stash apply
+41. Git Stash/Temporary Total Folder View Command:		  	  $ git stash list
+42. Go Different Git Stash/Temporary Folder Command:	  	  $ git stash pop <stash_number> // Example: git stash pop stash@{1}
 
-43. Delete Permanently Untracked File (Staus View):		  $ git clean -f -n
-44. Delete Permanently Untracked File In Working Directory:	  $ git clean -f
-45. Create _ .gitignore _ File To Ignore File For Not Commit:	  $ touch .gitignore
+43. Delete Permanently Untraced File (Status View):		  	  $ git clean -f -n
+44. Delete Permanently Untraced File In Working Directory:	  $ git clean -f
+45. Create _ .gitignore _ File To Ignore File For Not Commit: $ touch .gitignore
 46. _ .gitignore _ File Add Same Extension File & Ignore:	  $ _ .gitignore _ open any text editor and write this code & same extension file --> Example: *.png
 
 		[//] =====> Git & Github --> Collection-1 || Start <===== [//]
@@ -84,34 +85,34 @@
 
 		[//] =====> Git & Github --> Collection-2 || Start <===== [//]
 
-1. Git Initialize: 						$ git init
+1. Git Initialize: 									  	$ git init
 2. Copy A Repository Github To Working Directory:		$ git clone <repository_url>
-3. Git Repository Changes View:					$ git status
-4. Track / Stage All Chages File:				$ git add --all
-5. Track / Stage All Chages File:				$ git add --A
-6. Track / Stage Specific Folder Chages File:			$ git add .
-7. Track / Stage File But Not Deleted File:			$ git add *
-8. Track / Stage Specific File:					$ git add <file_name.extension_name> // Example: git add one.txt
+3. Git Repository Changes View:							$ git status
+4. Track / Stage All Changes File:						$ git add --all
+5. Track / Stage All Changes File:						$ git add --A
+6. Track / Stage Specific Folder Changes File:			$ git add .
+7. Track / Stage File But Not Deleted File:				$ git add *
+8. Track / Stage Specific File:							$ git add <file_name.extension_name> // Example: git add one.txt
 9. Track / Stage All Specific Extension File:			$ git add *<.extension_name> // Example: git add *.txt
-10. Go Back Stage To Local Repository:				$ git reset
+10. Go Back Stage To Local Repository:					$ git reset
 11. Commit / Stage To Sent Local Repository:			$ git commit -m "<commit_message>" // Example: git commit -m "I have modified some files"
-12. Commit To Go Back Working Directory:			$ git reset HEAD~ // "~" This Call "Tile Sign"
+12. Commit To Go Back Working Directory:				$ git reset HEAD~ // "~" This Call "Tile Sign"
 13. Delete Git Hard Go Back Working Directory:			$ git reset --hard
 14. Delete Any File Without Changes/Modification:		$ git rm <deleted_file_name> // Example: git rm one.txt
-Delete Any File After Changes/Modification:			$ git rm <deleted_file_name> -f // Example: git rm one.txt -f
+Delete Any File After Changes/Modification:				$ git rm <deleted_file_name> -f // Example: git rm one.txt -f
 15. Not Delete File Working Directory But Delete Stage:		$ git rm --cached <deleted_file_name>// Example: git rm --cached one.txt
 16. Delete A Folder And This Path Folder/Files (Reclusive):	$ git rm -r <folder_name> // Example: git rm -r new-folder
-17. Check Total Branch In Repository:				$ git branch
-18. Create A New Branch In Repository:				$ git branch <new_branch_name> // Example: git branch development
-19. Switched Main To Another Branch: 				$ git checkout <another_branch_name> // Example: git checkout development
-20. Git Merge/That's Master Chages Add To Another Branch:	$ git merge master -m "<commit_message>" // Example: git merge master -m "master branch merge with development branch"
+17. Check Total Branch In Repository:					$ git branch
+18. Create A New Branch In Repository:					$ git branch <new_branch_name> // Example: git branch development
+19. Switched Main To Another Branch: 					$ git checkout <another_branch_name> // Example: git checkout development
+20. Git Merge/That's Master Changes Add To Another Branch:	$ git merge master -m "<commit_message>" // Example: git merge master -m "master branch merge with development branch"
 21. Local Repository Files Sent/Push Remote/Github:		$ git push origin <branch_name> // Example: git push origin master
 22. Remote Changes Drop To Local Repository:			$ git fetch
-23. Remote Changes Drop To Local Repository Than Working Dir:	$ git fetch --> Then <-- git merge
+23. Remote Changes Drop To Local Repository Than Working:	$ git fetch --> Then <-- git merge
 24. Live Remote Changes Drop To Working Directory:		$ git pull
 
 25. Local Repository To Push Remote A Repository (Example):	$ git remote add origin https://github.com/SamiurRahmanMukul/fadelicious-psd-to-html-template-by-mukul.git
-								$ git branch -M main
-								$ git push -u origin main
+														$ git branch -M main
+														$ git push -u origin main
 
 		[//] =====> Git & Github --> Collection-2 || End <===== [//]

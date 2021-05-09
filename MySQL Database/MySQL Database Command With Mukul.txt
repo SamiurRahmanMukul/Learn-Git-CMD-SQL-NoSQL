@@ -1,68 +1,70 @@
-				   <<>> MySQL Database Command <<>>
-			   <<>> Created By : Md. Samiur Rahman (Mukul) <<>>
-			      -->>> Email: sr.mukul9090@gmail.com <<<--
------------------------------------------------------------------------------------------------------------
+						[<>] MySQL Database Command [<>]
+				            With : Samiur Rahman Mukul
+					      Email: sr.mukul9090@gmail.com
+-----------------------------------------------------------------------------------------------------
 
-1. Show Database --> show databases;
-2. Create a New Database --> create database <database_name>;
-3. Delete Database --> drop database <database_name>;
+1. Show Database --> 			  show databases;
+2. Create a New Database --> 	  create database <database_name>;
+3. Delete Database --> 			  drop database <database_name>;
 4. Use and Control a Database --> use <database_name>;
-5. Check Cureent Database --> select database();
+5. Check Current Database -->     select database();
 
-6. Create a New Table --> create tabel <table_name>
+6. Create a New Table --> create table <table_name>
 						(
 							<column_name> data_type,
 							<column_name> data_type
 						);
 
-7. Example, Create a Table -> CREATE TABLE Persons_info
-						(
-						    Personid int NOT NULL AUTO_INCREMENT,
-						    FullName varchar(255) NOT NULL DEFAULT 'unnamed',
-						    Age int NOT NULL,
-						    PRIMARY KEY (Personid)
-						);
+7. Example, Create a Table --> CREATE TABLE Persons_info
+							(
+								PersonId int NOT NULL AUTO_INCREMENT,
+								FullName varchar(255) NOT NULL DEFAULT 'unnamed',
+								Age int NOT NULL,
+								PRIMARY KEY (PersonId)
+							);
 
-8. Show all table in Database --> show tables;
-9. Show deatils Table in Database --> DESC <table_name>;
-10. Show Colums in a Table --> SHOW COLUMNS FROM <table_name>;]
-11. Delete a Table --> DROP TABLE <table_name>;
-12. Rename a Table --> RENAME TABLE <old_table_name> TO <new_table_name>;
+8. Show all table in Database -->     show tables;
+9. Show details Table in Database --> DESC <table_name>;
+10. Show Columns in a Table -->   	  SHOW COLUMNS FROM <table_name>;]
+11. Delete a Table --> 				  DROP TABLE <table_name>;
+12. Rename a Table --> 				  RENAME TABLE <old_table_name> TO <new_table_name>;
 
-13. Insert Data In Table --> INSERT INTO <table_name> (id, name, class);
-							 values(101, 'Samiur Rahman', 12);
+13. Insert Data In Table --> 	  INSERT INTO <table_name> (id, name, class);
+							 	  values(101, 'Samiur Rahman', 12);
 
-14. Show All Data In Table --> SELECT * FROM <table_name>;
+14. Show All Data In Table --> 	  SELECT * FROM <table_name>;
 
-15. Show Warningn In Database --> SHOW WARNINGS;
-16. Show Errors In Database --> SHOW ERRORS;
+15. Show Warnings In Database --> SHOW WARNINGS;
+16. Show Errors In Database -->   SHOW ERRORS;
 
-17. Create Column In Table --> ALTER TABLE <table_name> ADD <column_name> <data_type>;
-					       --> Example - ALTER TABLE student_info ADD school_name VARCHAR(250);
+17. Create Column In Table --> 	  ALTER TABLE <table_name> ADD <column_name> <data_type>;
+					       --> 	  Example - ALTER TABLE student_info ADD school_name VARCHAR(250);
 
-18. Drop a Colums In Table --> ALTER TABLE <table_name> student_info DROP COLUMN <column_name>;
+18. Drop a Columns In Table -->   ALTER TABLE <table_name> student_info DROP COLUMN <column_name>;
 
-19. Search/Query Specifc Record In Table Using Where Clause --> SELECT * FROM <table_name> WHERE <column_name> >/</= <define_value>;
-															--> Example - SELECT * FROM stduent_info WHERE age > 25;
+19. Search/Query Specific Record In Table Using Where Clause:
+			--> SELECT * FROM <table_name> WHERE <column_name> >/</= <define_value>;
+			--> Example - SELECT * FROM student_info WHERE age > 25;
 
-20. Update a Record With In Table --> UPDATE <table_name> SET <record_change_column_name> = <define_value> WHERE <unique_column_name> = <record_name>;
-								  --> Example - UPDATE stduent_info SET age = 35 WHERE id=2;
+20. Update a Record With In Table:
+			--> UPDATE <table_name> SET <record_change_column_name> = <define_value> WHERE <unique_column_name> = <record_name>;
+			--> Example - UPDATE student_info SET age = 35 WHERE id=2;
 
 21. Delete a Record With In Table --> DELETE FROM <table_name> WHERE <unique_column_name> = <record_name>;
-								  --> Example - DELETE FROM stduent_info WHERE id=5;
+								  --> Example - DELETE FROM student_info WHERE id=5;
 
 22. Common Records Query In Table --> SELECT DISTINCT <column_name> FROM <table_name>;
-								  --> Example - SELECT DISTINCT full_name FROM stduent_info;
-								  --> Example - SELECT DISTINCT full_name, age FROM stduent_info; ## Multiple Item Query.
+								  --> Example - SELECT DISTINCT full_name FROM student_info;
+								  --> Example - SELECT DISTINCT full_name, age FROM student_info; ## Multiple Item Query.
 
 23. Sorted Records Query In Table --> SELECT <column_name> FROM <table_name> ORDER BY <column_name>;
-								  --> Example - SELECT age FROM stduent_info ORDER BY age; ## Ascending Order.
-								  --> Example - SELECT DISTINCT age FROM stduent_info ORDER BY age; ## Descending Order.
+								  --> Example - SELECT age FROM student_info ORDER BY age; ## Ascending Order.
+								  --> Example - SELECT DISTINCT age FROM student_info ORDER BY age; ## Descending Order.
 
 24. Limited Records Query In Table --> SELECT <column_name> FROM <table_name> ORDER BY <column_name> LIMIT 3;
-								   --> Example - SELECT age FROM stduent_info ORDER BY age LIMIT 3;
+								   --> Example - SELECT age FROM student_info ORDER BY age LIMIT 3;
 
-25. Like Operator Using Queary In Table --> SELECT <column_name> FROM <table_name> WHERE <column_name> LIKE '%<query_name>%';
+25. Like Operator Using Query In Table  --> SELECT <column_name> FROM <table_name> WHERE <column_name> LIKE '%<query_name>%';
 										--> Example - SELECT full_name from std_info WHERE full_name LIKE '%abdur%';
 										--> Example - SELECT full_name from std_info WHERE full_name LIKE 'A%';
 
@@ -98,7 +100,7 @@
 32. MySQL String Function Command --> Example - SELECT CONCAT("Samiur", " ", "Rahman", " ", "Mukul") AS "Full_Name";
 								  --> Example - SELECT CONCAT(full_name, " ", age) FROM std_info;
 								  --> Example - SELECT REVERSE("samiur") AS Reverse;
-								  --> Example - SELECT CONCAT("samiur", REVERSE("samiur")) AS Palingdrome;
+								  --> Example - SELECT CONCAT("samiur", REVERSE("samiur")) AS Palindrome;
 								  --> Example - SELECT CHAR_LENGTH("samiur") AS String_Length;
 								  --> Example - SELECT LCASE("SAMIUR RAHMAN") AS String_LowerCase;
 								  --> Example - SELECT UCASE("samiur rahman") AS String_UpperCase;
@@ -112,7 +114,7 @@
 							2. Table Data Insert - INSERT INTO date_info (name, birth_of_date, birth_of_time, date_and_time)
     											   values("Samiur Rahman", "1998-09-05", "12-45-30", "1998-09-05 12-45-30");
 
-    						3. Table Current Time Data Insert - INSERT INTO date_info (name, birth_of_date, birth_of_time, date_and_time)
+    						3. Table Current Time Data Insert - INSERT INTO date_info (name, birth_of_date, birth_of_time, 												date_and_time);
     															values("Salman Khan", curdate(), curtime(), now());
 
 34. MySQL FOREIGN KEY Constraint --> 1. Create Table - CREATE TABLE Persons
@@ -146,4 +148,5 @@
 								   FULL OUTER JOIN Orders ON Persons.PersonId = Orders.PersonId;
 								   ORDER BY Persons.PersonId;
 
-											<><><> HAPPY END ☺ <><><>
+
+							<><><> HAPPY END ☺ <><><>
