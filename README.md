@@ -14,7 +14,7 @@ Hello 👋, At this repository i will be include learning purpose `Git, MySQL & 
 | :-: | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | 01  | [👉 Git And Github](https://github.com/SamiurRahmanMukul/LearnWithMukul-Git-MySQL-CMD/tree/main/Git%20And%20Github) | [❌ No Execute](https://www.github.com/SamiurRahmanMukul) |
 | 02  | [👉 MySQL Database](https://github.com/SamiurRahmanMukul/LearnWithMukul-Git-MySQL-CMD/tree/main/MySQL%20Database)   | [❌ No Execute](https://www.github.com/SamiurRahmanMukul) |
-| 01  | [👉 Git And Github](https://github.com/SamiurRahmanMukul/LearnWithMukul-Git-MySQL-CMD/tree/main/Windows%20CMD)      | [❌ No Execute](https://www.github.com/SamiurRahmanMukul) |
+| 01  | [👉 Windows CMD](https://github.com/SamiurRahmanMukul/LearnWithMukul-Git-MySQL-CMD/tree/main/Windows%20CMD)      | [❌ No Execute](https://www.github.com/SamiurRahmanMukul) |
 
 <!-- my social media links -->
 
