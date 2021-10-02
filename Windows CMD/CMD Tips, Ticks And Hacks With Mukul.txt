@@ -1,44 +1,44 @@
-					</> CMD Command Tricks and Hacks </>
-						--> @Samiur Rahman Mukul <--
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+														</> CMD Command Tricks and Hacks </>
+																	With: Samiur Rahman Mukul
+														~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 	#1: Open CMD any folder directory	$ open any folder in explorer and address type `cmd` and hit enter
 	#2: Create a secured folder	  		$ md aux/					[HERE: aux example folder name]
 	#3: Delete a secured folder	  		$ rd aux/					[HERE: aux example folder name]
-	#4: Hide any folder		  			$ attrib +h +s +r password	[HERE: password example folder name]
-	#5: Unhide any folder		  		$ attrib -h -s -r password	[HERE: password example folder name]
-	#6: Shutdown computer Using CMD   	$ shutdown -s / -r / -l 	[HERE: using: -s(shutdown) / -r(restart) / -l(log off)]
-	#7: Shutdown Countdown Using CMD  	$ shutdown  /s /t 50 /c "i am going to sleep now ..."
+	#4: Hide any folder		  					$ attrib +h +s +r password	[HERE: password example folder name]
+	#5: Unhide any folder		  				$ attrib -h -s -r password	[HERE: password example folder name]
+	#6: Shutdown computer Using CMD   $ shutdown -s / -r / -l 	[HERE: using: -s(shutdown) / -r(restart) / -l(log off)]
+	#7: Shutdown Countdown Using CMD  $ shutdown  /s /t 50 /c "i am going to sleep now ..."
 	#8: Customize CMD background	  	$ color help
 
 	#9: Change CMD title bar name 		$ prompt your_name <press enter then type & enter>
-						  				  your_nameTitle cmd_title 	[HERE: cmd_title defined title name]
+						  				  							your_nameTitle cmd_title 	[HERE: cmd_title defined title name]
 
 	#10: Create A Wifi Hotspot 			$ netsh wlan set hostednetwork mode=allow ssid=ABC_Hotspot key=password123
 	     Start Hosted Hotspot 			$ netsh wlan start hostednetwork
-	     Stop Hosted Hotspot 			$ netsh wlan stop hostednetwork
+	     Stop Hosted Hotspot 				$ netsh wlan stop hostednetwork
 
-	#11: Clear Command Prompt Screen 		$ clear <or> cls
+	#11: Clear Command Prompt Screen 				$ clear <or> cls
 	#12: Get List Of All Installed Programs $ wmic product get name
-	#13: Copy (And Save) CMD Output 		$ dir | clip		[HERE: dir command output copy to clipboard]
+	#13: Copy (And Save) CMD Output 				$ dir | clip		[HERE: dir command output copy to clipboard]
 
-	#14: Command Prompt Shortcut 			$ ⬆ 				[HERE: press `up 👆 arrow key` pressed to view previous commands]
-											$ f7 				[HERE: press `f7 function key` pressed to view previous commands]
-											$ doskey/history	[HERE: this command using view previous commands history]
+	#14: Command Prompt Shortcut 						$ ⬆ 	[HERE: press `up 👆 arrow key` pressed to view previous commands]
+																					$ f7 	[HERE: press `f7 function key` pressed to view previous commands]
+																					$ doskey/history	 [HERE: this command using view previous commands history]
 
-	#15: Check Weather In CMD As Admin 		$ net session
+	#15: Check Weather In CMD As Admin 			$ net session
 	#16: Check IP Address & Network Detail 	$ ipconfig /all
 	#17: Sorted List Of All Files & Folder 	$ dir /b /s | sort
-	#18: Open a Webpage Using CMD 			$ start www.google.com
+	#18: Open a Webpage Using CMD 					$ start www.google.com
 
-	#19: Get IP Address Any Website 		$ ping www.google.com
-	     Get IP Address Any Website 		$ nslookup www.google.com
+	#19: Get IP Address Any Website 				$ ping www.google.com
+	     Get IP Address Any Website 				$ nslookup www.google.com
 
 	#20: Get List Of All Running Processes 	$ tasklist
 	     Detail List Of Running Processes 	$ tasklist /v
 
-	#21: Change The System Time 			$ time 				[HERE: when ask set new time then set & change time]
-	#22: Encrypted A Folder Files 			$ cipher /e
-	#23: Watch System If Some Errors 		$ sfc/scannow
+	#21: Change The System Time 						$ time 	 [HERE: when ask set new time then set & change time]
+	#22: Encrypted A Folder Files 					$ cipher /e
+	#23: Watch System If Some Errors 				$ sfc/scannow
 
-							[/\] T H E - E N D [/\]
+																	[/\] T H E - E N D [/\]

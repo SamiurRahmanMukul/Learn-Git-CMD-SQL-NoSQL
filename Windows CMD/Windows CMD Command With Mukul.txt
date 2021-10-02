@@ -1,61 +1,96 @@
-						[//] Computer CMD Command [//]
-						   With: Samiur Rahman Mukul
-						 Email: sr.mukul9090@gmail.com
------------------------------------------------------------------------------------------------------
+												[//] Computer CMD Command [//]
+						   						With: Samiur Rahman Mukul
+						 						Email: sr.mukul9090@gmail.com
+												------------------------------
 
 * User Guide:
-1. " // '' Sing used to i know a comment.
+	#1. "//" Sing used to i know a comment.
 
-* CMD Command :
-1. Color choose : 	  > color\?
-2. Select any color : > color 0A
-3. Clear screen :	  > clear / cls
+* CMD Command:
+	1. Color choose: 	  													$ color\?
+	2. Select any color: 													$ color 0A
+	3. Clear screen:	  													$ clear / cls
 
-4. Check current folder files : > dir
-5. Hidden file open : 			> dir/a
-6. Go folder : 					> cd //(Folder name)
-7. Create a new folder : 		> mkdir //(Created folder name)
+	4. Check current folder files: 								$ dir
+	5. Hidden file open: 													$ dir/a
+	6. Go folder: 																$ cd // (Folder name)
+	7. Create a new folder: 											$ mkdir // (Created folder name)
 
-8. Back previous folder : 					   > cd ..
-9. Back previous or 2 or any previous folder : > cd ../..
+	8. Back previous folder: 					   					$ cd ..
+	9. Back previous or 2 or any previous folder: $ cd ../..
 
-10. Delete empty folder : 	  > rmdir //(Delete folder name)
-11. Delete not empty folder : > rmdir /s //(Delete folder name)
+	10. Delete empty folder: 	  									$ rmdir // (Delete folder name)
+	11. Delete not empty folder: 									$ rmdir /s // (Delete folder name)
 
-12. Shortly open any folder or files : > //( Only pressed Tab button any one select)
-13. Shortly open any folder or files : > cd //( Then press Tab button any one select)
+	12. Shortly open any folder or files: 				$ // ( Only pressed Tab button any one select)
+	13. Shortly open any folder or files: 				$ cd // ( Then press Tab button any one select)
 
-14. Shortly open any folder or files type first character : > cd M  //(Type folder name first character and press Tab button any one select)
-15. Create new file to type  echo> then file Name and Extension, Example : C:\Users\Md. Samiur Rahman\Desktop> echo> Text.txt
-16. Open any file to type file Name and Extension, Example : C:\Users\Md. Samiur Rahman\Desktop> Text.txt
-17. Write any text in .txt file, Example : C:\Users\Md. Samiur Rahman\Desktop>echo Hello world> Text.txt
-18. Write more new line text in .txt file, Example : C:\Users\Md. Samiur Rahman\Desktop> echo Hello world. How are you?>> Text.txt
-19. Read text to any .txt file, Example : C:\Users\Md. Samiur Rahman\Desktop> type Text.txt // Text.txt file text show in terminal
-20. Copy text one to anther file, Example : C:\Users\Md. Samiur Rahman\Desktop> copy A.txt B.txt //A.txt text copy B.txt
-21. Move text one to anther file, Example : C:\Users\Md. Samiur Rahman\Desktop> move A.txt B.txt //A.txt text move B.txt
-22. Dir list text save/copy to any file, Example : C:\Users\Md. Samiur Rahman\Desktop> dir >> A.txt // dir all text copy and save A.txt file
-23. Delete any file, Example : C:\Users\Md. Samiur Rahman\Desktop> del A.txt // delete A.txt file
+	14. Shortly open any folder or files type first character: 
+						$ cd M // (Type folder name first character and press Tab button any one select)
 
-24. Terminal previously using command seen, Example : C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>>" ⬆ " up arrow
-25. Terminal cursor move 👈left  or right👉, Example : C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>> " ➡ " right or " ⬅ " left arrow
-26. Terminal cursor move any word spacing 👈left  or right👉, Example : C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>> ctr + " ➡ " right or " ⬅ " left arrow
+	15. Create new file to type  echo> then file Name and Extension: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> echo> Text.txt
 
-27. Move one folder to in another folder, Example :  C:\Users\Md. Samiur Rahman\Desktop> move Dhaka Bangladesh // Dhaka folder move in Bangladesh folder
+	16. Open any file to type file Name and Extension: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> Text.txt
 
-28. Specific extension file list in terminal :  C:\Users\Md. Samiur Rahman\Desktop> dir *.txt // all .txt file list show in terminal
-29. Show hard disk all drive name list in terminal :  C:\Users\Md. Samiur Rahman\Desktop> wmic logicaldisk get name
-30. Go hard disk another drive, Example :  C:\Users\Md. Samiur Rahman\Desktop> e: // go hard disk " e " drive
-31. Folder path list using tree command :  C:\Users\Md. Samiur Rahman\Desktop> tree // current folder all path list show in terminal
+	17. Write any text in .txt file"
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop>echo Hello world> Text.txt
 
-32. Check IP address in this computer :  C:\Users\Md. Samiur Rahman\Desktop> ipconfig
-33. Computer network related instructions show in terminal :  C:\Users\Md. Samiur Rahman\Desktop> ipconfig/?
+	18. Write more new line text in .txt file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> echo Hello world. How are you? >> Text.txt
+
+	19. Read text to any .txt file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> type Text.txt // Text.txt file text show in terminal
+
+	20. Copy text one to anther file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> copy A.txt B.txt // A.txt text copy B.txt
+
+	21. Move text one to anther file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> move A.txt B.txt //A.txt text move B.txt
+
+	22. Dir list text save/copy to any file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> dir >> A.txt // dir all text copy and save A.txt file
+
+	23. Delete any file: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> del A.txt // delete A.txt file
+
+	24. Terminal previously using command seen: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>>" ⬆ " up arrow
+
+	25. Terminal cursor move 👈left  or right👉: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>> " ➡ " right or " ⬅ " left arrow
+
+	26. Terminal cursor move any word spacing 👈left  or right👉: 
+						$ Example -> C:\Users\Md. Samiur Rahman\Desktop> // press keyboard >>> ctr + " ➡ " right or " ⬅ " left arrow
+
+	27. Move one folder to in another folder: 
+						$ Example ->  C:\Users\Md. Samiur Rahman\Desktop> move Dhaka Bangladesh // Dhaka folder move in Bangladesh folder
+
+	28. Specific extension file list in terminal:
+						$ C:\Users\Md. Samiur Rahman\Desktop> dir *.txt // all .txt file list show in terminal
+
+	29. Show hard disk all drive name list in terminal:
+						$ C:\Users\Md. Samiur Rahman\Desktop> wmic logicaldisk get name
+
+	30. Go hard disk another drive: 
+						$ Example ->  C:\Users\Md. Samiur Rahman\Desktop> e: // go hard disk " e " drive
+
+	31. Folder path list using tree command: 
+						$ C:\Users\Md. Samiur Rahman\Desktop> tree // current folder all path list show in terminal
+
+	32. Check IP address in this computer: 
+						$ C:\Users\Md. Samiur Rahman\Desktop> ipconfig
+
+	33. Computer network related instructions show in terminal: 
+						$ C:\Users\Md. Samiur Rahman\Desktop> ipconfig/?
 
 * Run C program in Terminal :
-  ⚠Warning : Must be firstly make sure installed any compilers.
-1. Check C compiler version, Example : gcc --version
-2. Check path compiler add Yes or No : path
-3. Compile Any C program using gcc compile : gcc hello.c \\ compile output randomly name set
-4. Compile Any C program using gcc compile : gcc -o hello hello.c \\ compile output custom name set
-5. Run a C program : hello \\ run " hello " compiled C program
+  ⚠ Warning : Must be firstly make sure installed any compilers.
+		1. Check C compiler version, Example : gcc --version
+		2. Check path compiler add Yes or No : path
+		3. Compile Any C program using gcc compile : gcc hello.c \\ compile output randomly name set
+		4. Compile Any C program using gcc compile : gcc -o hello hello.c \\ compile output custom name set
+		5. Run a C program : hello \\ run " hello " compiled C program
 
-							</> THE END </>
+																			</> THE END </>
