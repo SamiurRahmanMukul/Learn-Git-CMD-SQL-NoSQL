@@ -1,0 +1,30 @@
+                          --------------------------------
+                          | </> MongoDB CRUD Command </> |
+                          --------------------------------
+  
+  1. Show all database:                      $ show dbs;
+  2. Make new data database:                 $ user e-commerce;   // [HERE: `e-commerce` database name]
+  3. Go to making database:                  $ db;
+  4. Make new collection & insert data:      $ db.products.insertOne({name: 'iphone 10, price: 1000000,     category: 'smartphone', active: true});   // [HERE: `products` collection name]
+
+  5. Clear mongodb-shell screen:             $ cls;
+  6. Show records in database:               $ db.products.find();
+  7. Show records pretty in collection:      $ db.products.find().pretty();
+  8. Insert many data in collection:         $ db.products.insertMany([{name: 'HP Pavilion', price: 800000, category: 'notebook', active: true}, {name: 'Dell Inspiron', price: 450000, category: 'notebook', active: false}, {name: 'Samsung Note 8', price: 72000, category: 'smartphone', active: true}]);
+
+  9. Particular condition data show:         $ db.products.find({active: false, category: 'notebook'}).pretty();   // [HERE: `{active: false, category: 'notebook'}` records show condition]
+
+  10. If condition Query field not show:     $ db.products.find({active: false, category: 'notebook'}, {active: 0}).pretty();   // [HERE; `{active: 0}` called projection]
+
+  11. Limited records show in collection:    $ db.products.find().pretty().limit(1);   // [HERE: `limit(1)` limited records query]
+
+  12. Show limit records skip first record:  $ db.products.find().pretty().limit(1).skip(1);   // [HERE: `skip(1)` using data find condition skip first record]
+
+  13. Show first record:                     $ db.products.findOne({category: 'smartphone'});
+
+  14. Update a record data:                  $ db.products.updateOne({name: 'iPhone 10', active: true}, {$set: {price: 1200000}});   // [HERE: `$set()` function using update data in a record]
+
+  15. Update many data in records:           $ db.products.updateMany({}, {$set: {active: true}});   // [HERE: `updateMany()` function using update records in collection]
+
+  16. Delete a record in collection:         $ db.products.deleteOne({name: 'iPhone 10'});
+  16. Delete may record in collection:       $ db.products.deleteMany({category: 'smartphone'});
